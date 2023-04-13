@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../../../Components/Button/Button";
-import media from "../../../styles/Responsive";
 import {LgPara} from "../../../styles/ShareStyles";
 import THEME from "../../../styles/Theme";
 

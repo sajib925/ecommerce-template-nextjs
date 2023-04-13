@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav__item item">
-          <Link href="/" className="nav__link link">
+          <Link href="#" className="nav__link link">
             <span className="nav__link__search__icon">
               <Search />
             </span>

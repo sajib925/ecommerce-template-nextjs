@@ -9,6 +9,7 @@ import Button from "../Button/Button";
 import MobileBtn from "./../icons/mobileBtn";
 import SignIn from "../SignIn/SignIn";
 import SignUp from "../SignUp/SignUp";
+import Link from "next/link";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -33,9 +34,9 @@ const Header = () => {
       <Container>
         <div className="header__inner">
           <div className="left">
-            <a href="/" className="logo">
+            <Link href="/" className="logo">
               <Image src={logo} alt="logo" />
-            </a>
+            </Link>
           </div>
           <div
             className={mobileMenu ? "middle open__menu" : "middle close__menu"}
